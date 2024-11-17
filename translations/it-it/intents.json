@@ -1,0 +1,6 @@
+{
+  "take.screenshot.intent": [
+    "(scatta|fai) uno screenshot",
+    "scatta una foto(grafia|)"
+  ]
+}
