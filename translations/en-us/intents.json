@@ -1,6 +1,10 @@
 {
-    "take.screenshot.intent": [
-        "take screenshot",
-        "take a screenshot"
-    ]
+  "take.screenshot.intent": [
+    "take screenshot",
+    "take a screenshot",
+    "capture the screen",
+    "screenshot the display",
+    "save a screenshot",
+    "grab the screen"
+  ]
 }
