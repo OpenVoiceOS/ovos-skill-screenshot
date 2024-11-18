@@ -1,0 +1,10 @@
+{
+  "take.screenshot.intent": [
+    "tirar captura de  (ecrã|tela)",
+    "tirar uma captura de  (ecrã|tela)",
+    "capturar (o ecrã|a tela)",
+    "captura de (ecrã|tela)",
+    "guardar uma captura de  (ecrã|tela)",
+    null
+  ]
+}
