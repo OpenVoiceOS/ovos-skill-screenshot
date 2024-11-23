@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.3a2) (2024-11-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.3a1...0.0.3a2)
+
 ## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.3a1) (2024-11-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.2...0.0.3a1)
