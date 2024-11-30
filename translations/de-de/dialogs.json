@@ -1,0 +1,9 @@
+{
+  "screenshot.taken.dialog": [
+    "Screenshot gemacht"
+  ],
+  "screenshot.failed.dialog": [
+    "Screenshot fehlgeschlagen",
+    "Ich konnte den Screenshot nicht machen"
+  ]
+}
