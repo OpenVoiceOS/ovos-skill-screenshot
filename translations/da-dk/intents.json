@@ -1,6 +1,5 @@
 {
-  "take.screenshot.intent": [
-    "tag et skærmbillede",
-    "tag et skærmbillede"
-  ]
+    "take.screenshot.intent": [
+        "tag et skærmbillede"
+    ]
 }

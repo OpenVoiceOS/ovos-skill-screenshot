@@ -1,10 +1,9 @@
 {
-  "take.screenshot.intent": [
-    "fes una captura de pantalla",
-    "fes una captura",
-    "captura (la|sa) pantalla",
-    "captura (la|sa) pantalla",
-    "desa una captura",
-    "(grava|enregistra) (la|sa) pantalla"
-  ]
+    "take.screenshot.intent": [
+        "(grava|enregistra) (la|sa) pantalla",
+        "captura (la|sa) pantalla",
+        "desa una captura",
+        "fes una captura",
+        "fes una captura de pantalla"
+    ]
 }
