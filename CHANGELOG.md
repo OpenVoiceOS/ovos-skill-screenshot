@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7a1) (2025-01-25)
+## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7a2) (2025-03-16)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.7a1...0.0.7a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.7a1...0.0.7a2)
 
 **Merged pull requests:**
 
+- updating German translation [\#18](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/18) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 - fix automations [\#17](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/17) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7a1) (2024-12-13)
