@@ -1,16 +1,25 @@
 # Changelog
 
-## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.6a1) (2024-12-02)
+## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7a2) (2025-03-16)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.5...0.0.6a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.7a1...0.0.7a2)
 
 **Merged pull requests:**
 
-- import basque translations [\#14](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/14) ([JarbasAl](https://github.com/JarbasAl))
+- updating German translation [\#18](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/18) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fix automations [\#17](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/17) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.0.5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.5) (2024-12-02)
+## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7a1) (2024-12-13)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.5...V0.0.5)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.6...0.0.7a1)
+
+**Merged pull requests:**
+
+- adjusting German translation from joergz2 [\#16](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/16) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [V0.0.6](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.6) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.6...V0.0.6)
 
 
 

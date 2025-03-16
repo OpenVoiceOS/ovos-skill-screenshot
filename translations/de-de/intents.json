@@ -1,6 +1,10 @@
 {
-    "take.screenshot.intent": [
-        "einen Screenshot machen",
-        "schauspielerisch"
-    ]
+  "take.screenshot.intent": [
+    "einen Screenshot machen\nbildschirmaufnahme machen\nbildschirm-aufnahme machen",
+    "(mache|mach) einen screenshot\n(mache|mach) eine bildschirmaufnahme\n(mache|mach) eine bildschirm-aufnahme",
+    "Bildschirm erfassen",
+    "Screenshot vom Display",
+    "(speichere|speicher) den bildschirminhalt\n(speichere|speicher) den bildschirm\n(speichere|speicher) den monitorinhalt\n(speichere|speicher) den monitor\n",
+    "(Bildschirmschnappschuss|Bildschirmfoto) machen"
+  ]
 }
