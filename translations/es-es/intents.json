@@ -1,6 +1,10 @@
 {
-    "take.screenshot.intent": [
-        "tomar una captura de pantalla",
-        "tomar captura de pantalla"
-    ]
+  "take.screenshot.intent": [
+    "haz captura de pantalla",
+    "haz una captura de pantalla",
+    "captura la pantalla",
+    "captura pantalla",
+    "guarda una captura de pantalla",
+    "captura la pantalla"
+  ]
 }
