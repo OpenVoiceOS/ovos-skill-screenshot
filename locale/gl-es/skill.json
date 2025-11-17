@@ -1,7 +1,7 @@
 {
-  "take.screenshot.intent": [
-    "tirar unha captura de pantalla",
-    "tirar captura de pantalla",
+  "examples": [
+    "facer (unha|) captura de pantalla",
+    "facer unha captura de pantalla",
     "capturar a pantalla",
     "capturar a pantalla",
     "gardar unha captura de pantalla",
