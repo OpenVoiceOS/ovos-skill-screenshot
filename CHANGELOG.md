@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.8a6](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a6) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a5...0.0.8a6)
+
+**Merged pull requests:**
+
+- Update stefanzweifel/git-auto-commit-action action to v7 [\#31](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/31) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.8a5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a5) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a4...0.0.8a5)
@@ -10,19 +18,19 @@
 
 ## [0.0.8a4](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a4) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a2...0.0.8a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a3...0.0.8a4)
 
 **Merged pull requests:**
 
 - Configure Renovate [\#25](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/25) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [0.0.8a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a2) (2025-11-17)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a3...0.0.8a2)
-
 ## [0.0.8a3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a3) (2025-11-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a1...0.0.8a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a2...0.0.8a3)
+
+## [0.0.8a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a2) (2025-11-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a1...0.0.8a2)
 
 **Merged pull requests:**
 
