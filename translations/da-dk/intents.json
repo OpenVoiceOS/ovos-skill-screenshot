@@ -1,6 +1,10 @@
 {
   "take.screenshot.intent": [
     "tag et skærmbillede",
-    "tag et skærmbillede"
+    "tag et skærmbillede",
+    "fang skærmen",
+    null,
+    "gem et skærmbillede",
+    null
   ]
 }
