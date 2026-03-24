@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.9a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.9a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a7...0.0.9a1)
+
+**Merged pull requests:**
+
+- fix: rename bare lang code locale directories [\#34](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/34) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- Complete French screenshot locale [\#33](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/33) ([goldyfruit](https://github.com/goldyfruit))
+- Update actions/setup-python action to v6 [\#30](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/30) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v6 [\#27](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.8a7](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a7) (2026-01-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a6...0.0.8a7)
