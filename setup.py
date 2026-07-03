@@ -77,6 +77,14 @@ setup(
     long_description_content_type="text/markdown",
     url=URL,
     install_requires=get_requirements("requirements.txt"),
+    extras_require={
+        "test": [
+            "pytest",
+            "pytest-timeout",
+            "ovoscope>=1.0.1a1",
+            "ovos-padatious>=1.0.0",
+        ],
+    },
     author="jarbasAi",
     description='OVOS screenshot skill plugin',
     license='Apache-2.0',
