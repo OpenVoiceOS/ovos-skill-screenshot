@@ -43,16 +43,16 @@ class TestScreenshotIntentsEnUS(unittest.TestCase):
         self.assertIn(intent_msg, types)
 
     def test_take_a_screenshot(self):
-        self._assert_intent("take a screenshot", "take.screenshot.intent")
+        self._assert_intent("take a screenshot", "take.screenshot")
 
     def test_capture_the_screen(self):
-        self._assert_intent("capture the screen", "take.screenshot.intent")
+        self._assert_intent("capture the screen", "take.screenshot")
 
     def test_grab_the_screen(self):
-        self._assert_intent("grab the screen", "take.screenshot.intent")
+        self._assert_intent("grab the screen", "take.screenshot")
 
     def test_save_a_screenshot(self):
-        self._assert_intent("save a screenshot", "take.screenshot.intent")
+        self._assert_intent("save a screenshot", "take.screenshot")
 
     def test_screenshot_the_display(self):
-        self._assert_intent("screenshot the display", "take.screenshot.intent")
+        self._assert_intent("screenshot the display", "take.screenshot")
