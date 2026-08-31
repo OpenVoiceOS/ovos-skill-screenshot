@@ -41,13 +41,13 @@ class ScreenshotSkill(OVOSSkill):
         display_message = f"Screenshot saved to {output}"
         self.gui.show_notification(display_message)
         LOG.debug(f"screenshot saved: {output}")
-        self.speak_dialog("screenshot.taken")
+        self.speak_dialog("screenshot_taken")
 
     def handle_screenshot_taken(self, message):
         result = message.data.get("result")
         self.notify(result)
 
-    @intent_handler("take.screenshot.intent")
+    @intent_handler("take_screenshot.intent")
     def handle_screenshot_intent(self, message):
         if self.is_ovos_shell:
             LOG.debug("Taking screenshot via ovos-shell")
@@ -62,5 +62,5 @@ class ScreenshotSkill(OVOSSkill):
             self.notify(output)
         except Exception as e:
             LOG.error(f"Failed to take screenshot: {e}")
-            self.speak_dialog("screenshot.failed")
+            self.speak_dialog("screenshot_failed")
 

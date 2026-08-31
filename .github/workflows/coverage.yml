@@ -12,8 +12,7 @@ jobs:
     with:
       python_version: '3.11'
       coverage_source: 'ovos_skill_screenshot'
-      test_path: 'test/end2end/'
+      test_path: 'test/'
       test_extras: 'test'
       system_deps: 'swig libfann-dev'
-      install_extras: ''
       min_coverage: 0
