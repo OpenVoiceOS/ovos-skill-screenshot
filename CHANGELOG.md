@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.0.0a1) (2026-08-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.10a5...1.0.0a1)
+
+**Breaking changes:**
+
+- feat!: enforce INTENT-2 naming and improve en-US intent coverage [\#40](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/40) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.10a5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.10a5) (2026-08-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.10a4...0.0.10a5)
