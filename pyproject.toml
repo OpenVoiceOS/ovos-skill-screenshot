@@ -14,7 +14,8 @@ authors = [
 keywords = ["ovos", "skill", "plugin"]
 dependencies = [
     "mss",
-    "ovos_workshop>=9.5.0a1"
+    "ovos_workshop>=9.5.0a1",
+    "ovos-number-parser>=0.19.13"
 ]
 
 [project.optional-dependencies]
