@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-screenshot"
+dynamic = ["version"]
+description = "OVOS screenshot skill"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "JarbasAi", email = "jarbasai@mailfence.com"}
+]
+keywords = ["ovos", "skill", "plugin"]
+dependencies = [
+    "mss",
+    "ovos_workshop>=9.5.0a1",
+    "ovos-number-parser>=0.19.13"
+]
+
+[project.optional-dependencies]
+test = [
+    "ovoscope>=1.6.9a1",
+    "pytest>=7.0.0,<9",
+    "pytest-timeout>=2.0.0",
+    "padacioso>=1.0.2a3",
+    "ovos-adapt-parser",
+    "ovos-padatious",
+    "ovos-m2v-pipeline",
+    "nebulento",
+    "palavreado"
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-skill-screenshot"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-screenshot.openvoiceos" = "ovos_skill_screenshot:ScreenshotSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_screenshot"]
+
+[tool.setuptools.package-dir]
+ovos_skill_screenshot = ""
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_skill_screenshot.version.__version__"}
+
+[tool.setuptools.package-data]
+ovos_skill_screenshot = [
+    "locale/**/*",
+    "locale/*/*.json",
+    "locale/*/*.voc",
+    "locale/*/*.intent",
+    "locale/*/*.dialog",
+]
