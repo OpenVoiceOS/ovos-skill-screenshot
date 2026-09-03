@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.0.0a2) (2026-09-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.0.0a1...1.0.0a2)
+
+**Merged pull requests:**
+
+- Add delayed capture, bare-noun trigger, and save-location query [\#49](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/49) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.0.0a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.0.0a1) (2026-08-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.10a5...1.0.0a1)
@@ -86,19 +94,19 @@
 
 ## [0.0.8a4](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a4) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a2...0.0.8a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a3...0.0.8a4)
 
 **Merged pull requests:**
 
 - Configure Renovate [\#25](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/25) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [0.0.8a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a2) (2025-11-17)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a3...0.0.8a2)
-
 ## [0.0.8a3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a3) (2025-11-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a1...0.0.8a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a2...0.0.8a3)
+
+## [0.0.8a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a2) (2025-11-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a1...0.0.8a2)
 
 **Merged pull requests:**
 
