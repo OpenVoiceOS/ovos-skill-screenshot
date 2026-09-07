@@ -24,7 +24,6 @@ test = [
     "pytest>=7.0.0,<9",
     "pytest-timeout>=2.0.0",
     "padacioso>=1.0.2a3",
-    "ovos-adapt-parser",
     "ovos-padatious",
     "ovos-m2v-pipeline",
     "nebulento",
