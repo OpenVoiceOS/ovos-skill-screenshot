@@ -1,5 +1,5 @@
-fang skærmen
-gem et skærmbillede
-skærmbillede af skærmen
-tag et skærmbillede
-tag fat i skærmen
+(tag|grib|fang|gem|lav) [et|endnu et] (skærmbillede|screenshot)
+(fang|grib|gem|screenshot) [skærmen|min skærm]
+tag et (skærmbillede|screenshot) om {delay} sekunder
+(skærmbillede|screenshot) om {delay} sekunder
+skærmbillede
