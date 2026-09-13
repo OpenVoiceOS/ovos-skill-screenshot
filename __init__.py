@@ -74,7 +74,7 @@ class ScreenshotSkill(OVOSSkill):
                 LOG.warning(f"Failed to parse delay {delay_str!r}: {e}")
                 delay = False
             if delay:
-                self.speak_dialog("screenshot.delayed", {"delay": delay})
+                self.speak_dialog("screenshot_delayed", {"delay": delay})
                 self.schedule_event(self._take_screenshot_impl, delay,
                                     data=message.data, name="screenshot_delayed",
                                     context=message.context)
@@ -83,5 +83,5 @@ class ScreenshotSkill(OVOSSkill):
 
     @intent_handler("screenshot_location.intent")
     def handle_screenshot_location_intent(self, message):
-        self.speak_dialog("screenshot.location", {"path": self.screenshots_folder})
+        self.speak_dialog("screenshot_location", {"path": self.screenshots_folder})
 
