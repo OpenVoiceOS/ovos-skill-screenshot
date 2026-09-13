@@ -61,7 +61,7 @@ def test_delayed_screenshot_schedules_instead_of_capturing_immediately():
     assert args[0] == skill._take_screenshot_impl
     assert args[1] == 5
     skill.speak_dialog.assert_called_once_with(
-        "screenshot.delayed", {"delay": 5})
+        "screenshot_delayed", {"delay": 5})
 
 
 def test_no_delay_captures_immediately():
@@ -101,7 +101,7 @@ def test_screenshot_location_intent_speaks_configured_path(tmp_path):
     skill.handle_screenshot_location_intent(Message("x", {}, {}))
 
     skill.speak_dialog.assert_called_once_with(
-        "screenshot.location", {"path": str(target)})
+        "screenshot_location", {"path": str(target)})
 
 
 def _locale_path(name):
