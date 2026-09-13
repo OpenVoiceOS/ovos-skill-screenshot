@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.3.0a2) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.3.0a1...1.3.0a2)
+
+**Merged pull requests:**
+
+- locale: fix gl-ES screenshot\_location.dialog mistranslation [\#67](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/67) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.3.0a1) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.2.1a1...1.3.0a1)
