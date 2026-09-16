@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0a3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.3.0a3) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.3.0a2...1.3.0a3)
+
+**Merged pull requests:**
+
+- test: assert screenshot capture-request and confirmation effects [\#62](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/62) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.3.0a2) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.3.0a1...1.3.0a2)
