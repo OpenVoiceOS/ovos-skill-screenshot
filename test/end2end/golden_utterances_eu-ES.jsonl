@@ -1,0 +1,4 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "atera pantaila-argazkia", "lang": "eu-ES", "intent_label": "take_screenshot.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "non gordetzen dira pantaila-argazkiak", "lang": "eu-ES", "intent_label": "screenshot_location.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "non daude nire pantaila-argazkiak", "lang": "eu-ES", "intent_label": "screenshot_location.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "non daude azken pantaila-argazkiak", "lang": "eu-ES", "intent_label": "screenshot_location.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}

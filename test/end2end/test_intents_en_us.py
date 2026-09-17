@@ -18,7 +18,15 @@ LANG = "en-US"
 class TestScreenshotIntentsEnUS(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        # get_minicroft's default max_wait (60s) is tuned for the plain test
+        # job; under coverage instrumentation Padatious training reliably
+        # needs more than that, and the trained-quiet-window wait then times
+        # out silently -- the intent never finishes training and every
+        # utterance below comes back unmatched (observed as CI-only,
+        # non-reproducing-locally failures on this suite; see
+        # ovos-skill-alerts' test/end2end/test_golden_utterances_multilang.py
+        # docstring for the same root cause elsewhere in the fleet).
+        cls.minicroft = get_minicroft([SKILL_ID], max_wait=150)
 
     @classmethod
     def tearDownClass(cls):
