@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.5.0a1) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.4.0a1...1.5.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): fill it-IT gap against en-US [\#70](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/70) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.4.0a1) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.3.0a3...1.4.0a1)
