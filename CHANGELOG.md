@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.2a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.6.2a1) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.6.1a1...1.6.2a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): skill\_id and tags in the en-US skill.json [\#80](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/80) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.6.1a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.6.1a1) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.6.0a1...1.6.1a1)
@@ -199,19 +207,19 @@
 
 ## [0.0.8a4](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a4) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a3...0.0.8a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a2...0.0.8a4)
 
 **Merged pull requests:**
 
 - Configure Renovate [\#25](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/25) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [0.0.8a3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a3) (2025-11-17)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a2...0.0.8a3)
-
 ## [0.0.8a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a2) (2025-11-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a1...0.0.8a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a3...0.0.8a2)
+
+## [0.0.8a3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.8a3) (2025-11-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.8a1...0.0.8a3)
 
 **Merged pull requests:**
 
