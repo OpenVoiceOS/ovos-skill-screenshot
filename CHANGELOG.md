@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.0a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.0a1...1.7.0a2)
+
+**Merged pull requests:**
+
+- locale: draft fa-IR pl-PL ru-RU from en-US \(machine translation, unvouched\) [\#84](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/84) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.7.0a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.0a1) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.6.2a1...1.7.0a1)
@@ -245,6 +253,158 @@
 ## [V0.0.7](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.7) (2025-03-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.7...V0.0.7)
+
+## [0.0.7](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7) (2025-03-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.7a2...0.0.7)
+
+**Merged pull requests:**
+
+- Release 0.0.7a2 [\#19](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/19) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7a2) (2025-03-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.7a1...0.0.7a2)
+
+**Merged pull requests:**
+
+- updating German translation [\#18](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/18) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fix automations [\#17](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/17) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.7a1) (2024-12-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.6...0.0.7a1)
+
+**Merged pull requests:**
+
+- adjusting German translation from joergz2 [\#16](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/16) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.0.6](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.6) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.6...0.0.6)
+
+## [V0.0.6](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.6) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.6a1...V0.0.6)
+
+**Merged pull requests:**
+
+- Release 0.0.6a1 [\#15](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/15) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.6a1) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.5...0.0.6a1)
+
+**Merged pull requests:**
+
+- import basque translations [\#14](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/14) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.0.5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.5) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.5...V0.0.5)
+
+## [0.0.5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.5) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.5a1...0.0.5)
+
+**Merged pull requests:**
+
+- Release 0.0.5a1 [\#13](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/13) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.5a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.5a1) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.4...0.0.5a1)
+
+**Merged pull requests:**
+
+- import galician translations [\#12](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.0.4](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.4) (2024-11-30)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.4...V0.0.4)
+
+## [0.0.4](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.4) (2024-11-30)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.4a1...0.0.4)
+
+**Merged pull requests:**
+
+- Release 0.0.4a1 [\#11](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/11) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.4a1) (2024-11-30)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.3...0.0.4a1)
+
+**Merged pull requests:**
+
+- de-de/translate [\#10](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/10) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.0.3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.3) (2024-11-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.3...0.0.3)
+
+## [V0.0.3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.3) (2024-11-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.3a2...V0.0.3)
+
+**Merged pull requests:**
+
+- Release 0.0.3a2 [\#9](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/9) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.3a2) (2024-11-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.3a1...0.0.3a2)
+
+## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.3a1) (2024-11-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.2...0.0.3a1)
+
+**Merged pull requests:**
+
+- Add Catalan translation [\#8](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/8) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Add Catalan translation [\#7](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/7) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Add Catalan translation [\#6](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/6) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [V0.0.2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.2) (2024-11-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.2...V0.0.2)
+
+## [0.0.2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.2) (2024-11-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.2a1...0.0.2)
+
+**Merged pull requests:**
+
+- Release 0.0.2a1 [\#5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/5) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.2a1) (2024-11-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/V0.0.1...0.0.2a1)
+
+**Merged pull requests:**
+
+- pt-pt/translate [\#4](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/4) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [V0.0.1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/V0.0.1) (2024-11-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.1...V0.0.1)
+
+## [0.0.1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.1) (2024-11-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/0.0.1a2...0.0.1)
+
+**Merged pull requests:**
+
+- Release 0.0.1a2 [\#3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/3) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.1a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/0.0.1a2) (2024-11-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/903c886d1e6d5d67e1a4143acd7c24b2c8c5596c...0.0.1a2)
+
+**Merged pull requests:**
+
+- semver automations [\#2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/2) ([JarbasAl](https://github.com/JarbasAl))
+- feat: :tada: [\#1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/1) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
