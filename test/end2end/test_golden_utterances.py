@@ -133,3 +133,10 @@ def test_negative_confusable_not_claimed(minicrofts, negative):
     assert not _matched_intents(types), (
         f"{text!r} (from {source_skill}) was incorrectly claimed by {SKILL_ID}"
     )
+
+
+def test_every_shipping_locale_has_a_golden_file():
+    golden = {p.stem.split("_", 2)[2] for p in GOLDEN_DIR.glob("golden_utterances_*.jsonl")}
+    locale_root = GOLDEN_DIR.parents[1] / "locale"
+    shipping = {d.name for d in locale_root.iterdir() if d.is_dir() and any(d.rglob("*.intent"))}
+    assert golden == shipping, f"golden files {sorted(golden ^ shipping)} differ from shipping locales"
