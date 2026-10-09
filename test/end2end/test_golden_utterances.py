@@ -25,8 +25,8 @@ SKILL_ID = "ovos-skill-screenshot.openvoiceos"
 LANG = "en-US"
 
 _PIPELINE = [
-    "ovos-padatious-pipeline-plugin-high",
-    "ovos-padatious-pipeline-plugin-medium",
+    "ovos-padacioso-pipeline-plugin-high",
+    "ovos-padacioso-pipeline-plugin-medium",
 ]
 
 GOLDEN_PATH = Path(__file__).parent / "golden_utterances.jsonl"
@@ -41,6 +41,17 @@ NEGATIVE_UTTERANCES = [
     ("save my location", "ovos-skill-homeassistant.openvoiceos"),
     ("record a voice memo", "ovos-skill-voice-memo.openvoiceos"),
     ("turn off the display", "ovos-skill-homeassistant.openvoiceos"),
+    # sibling confusions introduced by the "please"/"can you" politeness
+    # prefixes and the "picture of" phrasing added to take_screenshot.intent
+    ("take a picture", "ovos-skill-camera.openvoiceos"),
+    ("take a picture of the cat", "ovos-skill-camera.openvoiceos"),
+    ("can you turn up the volume", "ovos-skill-volume.openvoiceos"),
+    ("please turn off the lights", "ovos-skill-homeassistant.openvoiceos"),
+    ("can you play some music", "ovos-skill-music.openvoiceos"),
+    ("please save my location", "ovos-skill-homeassistant.openvoiceos"),
+    # sibling confusions for the new screenshot_location.intent phrasings
+    ("where is my music folder", "ovos-skill-file-browser.openvoiceos"),
+    ("open my pictures folder", "ovos-skill-file-browser.openvoiceos"),
 ]
 
 
