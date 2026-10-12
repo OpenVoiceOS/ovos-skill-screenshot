@@ -71,8 +71,8 @@ class TestScreenshotEffects(unittest.TestCase):
         session = Session(session_id)
         session.lang = LANG
         session.pipeline = [
-            "ovos-padatious-pipeline-plugin-high",
-            "ovos-padatious-pipeline-plugin-medium",
+            "ovos-padacioso-pipeline-plugin-high",
+            "ovos-padacioso-pipeline-plugin-medium",
         ]
         return session
 

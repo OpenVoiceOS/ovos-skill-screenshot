@@ -1,0 +1,7 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "tómame un pantallazo, porfa", "lang": "es-CO", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "hazme una captura de lo que tengo en pantalla", "lang": "es-CO", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "quiero guardar una imagen de la pantalla", "lang": "es-CO", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "en cinco segundos me tomas una captura", "lang": "es-CO", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "en qué carpeta quedan los pantallazos", "lang": "es-CO", "intent_label": "screenshot_location.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "dónde quedó guardada la última captura", "lang": "es-CO", "intent_label": "screenshot_location.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "dónde encuentro los pantallazos que tomaste", "lang": "es-CO", "intent_label": "screenshot_location.intent", "machine_generated": true, "needs_manual": true}
