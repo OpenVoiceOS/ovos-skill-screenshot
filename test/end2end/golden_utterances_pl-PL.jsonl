@@ -1,0 +1,7 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "potrzebuję obrazka tego, co teraz widzę na ekranie", "lang": "pl-PL", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "zapisz jako obrazek to, co widać na ekranie", "lang": "pl-PL", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "za dziesięć sekund zrób zrzut", "lang": "pl-PL", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "złap obraz tego, co mam na monitorze", "lang": "pl-PL", "intent_label": "take_screenshot.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "w jakim folderze lądują zrzuty ekranu", "lang": "pl-PL", "intent_label": "screenshot_location.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "gdzie znajdę ostatni zrzut, który zrobiłeś", "lang": "pl-PL", "intent_label": "screenshot_location.intent", "machine_generated": true, "needs_manual": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "utterance": "w którym miejscu przechowujesz moje zrzuty", "lang": "pl-PL", "intent_label": "screenshot_location.intent", "machine_generated": true, "needs_manual": true}

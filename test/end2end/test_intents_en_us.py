@@ -1,7 +1,7 @@
 """End-to-end intent routing tests for the en-US locale.
 
 Each canonical utterance is fired through a real MiniCroft and asserted to
-route to the take-screenshot Padatious intent. The capture ends at the intent
+route to the take-screenshot intent on padacioso. The capture ends at the intent
 match, so the assertion covers routing without depending on the screenshot
 side effect (which needs a display).
 """
@@ -29,8 +29,8 @@ class TestScreenshotIntentsEnUS(unittest.TestCase):
         session = Session("test-session")
         session.lang = LANG
         session.pipeline = [
-            "ovos-padatious-pipeline-plugin-high",
-            "ovos-padatious-pipeline-plugin-medium",
+            "ovos-padacioso-pipeline-plugin-high",
+            "ovos-padacioso-pipeline-plugin-medium",
         ]
         utterance = Message(
             "recognizer_loop:utterance",
