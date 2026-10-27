@@ -34,10 +34,12 @@ from pathlib import Path
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
 from ovos_config import Configuration
-from ovoscope import CaptureSession, get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-screenshot.openvoiceos"
 LANG = "en-US"
+TAKE_SCREENSHOT = f"{SKILL_ID}:take_screenshot"
 LOCALE_DIR = Path(__file__).parent.parent.parent / "locale" / "en-US"
 
 
@@ -49,7 +51,7 @@ def _dialog_templates(name):
 class TestScreenshotEffects(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_prototype_minicroft([SKILL_ID], lang=LANG)
         cls.skill = cls.minicroft.plugin_skills[SKILL_ID].instance
         cls.scratch_dir = tempfile.mkdtemp(prefix="ovos-skill-screenshot-test-")
         # force the shell (bus-message) path: never let this suite fall
@@ -70,10 +72,7 @@ class TestScreenshotEffects(unittest.TestCase):
     def _session(self, session_id):
         session = Session(session_id)
         session.lang = LANG
-        session.pipeline = [
-            "ovos-padatious-pipeline-plugin-high",
-            "ovos-padatious-pipeline-plugin-medium",
-        ]
+        session.pipeline = PIPELINE
         return session
 
     def _fire(self, text, session_id):
@@ -96,6 +95,8 @@ class TestScreenshotEffects(unittest.TestCase):
         self.assertIs(self.skill.is_ovos_shell, True, "test setup did not force the shell path")
 
         messages = self._fire("take a screenshot", "effects-take-screenshot")
+        TALLY.assert_routed("take a screenshot", TAKE_SCREENSHOT,
+                            [m.msg_type for m in messages])
 
         capture_requests = [m for m in messages if m.msg_type == "ovos.display.screenshot.get"]
         self.assertEqual(
