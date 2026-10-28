@@ -1,7 +1,7 @@
 """End-to-end intent routing tests for the en-US locale.
 
 Each canonical utterance is fired through a real MiniCroft and asserted to
-route to the take-screenshot Padatious intent. The capture ends at the intent
+route to the take-screenshot intent. The capture ends at the intent
 match, so the assertion covers routing without depending on the screenshot
 side effect (which needs a display).
 """
@@ -9,7 +9,8 @@ import unittest
 
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
-from ovoscope import CaptureSession, get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-screenshot.openvoiceos"
 LANG = "en-US"
@@ -18,7 +19,7 @@ LANG = "en-US"
 class TestScreenshotIntentsEnUS(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_prototype_minicroft([SKILL_ID], lang=LANG)
 
     @classmethod
     def tearDownClass(cls):
@@ -28,10 +29,7 @@ class TestScreenshotIntentsEnUS(unittest.TestCase):
         intent_msg = f"{SKILL_ID}:{intent_file}"
         session = Session("test-session")
         session.lang = LANG
-        session.pipeline = [
-            "ovos-padatious-pipeline-plugin-high",
-            "ovos-padatious-pipeline-plugin-medium",
-        ]
+        session.pipeline = PIPELINE
         utterance = Message(
             "recognizer_loop:utterance",
             {"utterances": [text], "lang": LANG},
@@ -40,7 +38,7 @@ class TestScreenshotIntentsEnUS(unittest.TestCase):
         capture = CaptureSession(self.minicroft, eof_msgs=[intent_msg])
         capture.capture(utterance, timeout=30)
         types = [m.msg_type for m in capture.finish()]
-        self.assertIn(intent_msg, types)
+        TALLY.assert_routed(text, intent_msg, types)
 
     def test_take_a_screenshot(self):
         self._assert_intent("take a screenshot", "take_screenshot")
