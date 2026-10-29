@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.1a1) (2026-10-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.0a5...1.7.1a1)
+
+**Merged pull requests:**
+
+- fix: stop take\_screenshot claiming camera and save requests in it-IT and en-US [\#93](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/93) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.7.0a5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.0a5) (2026-10-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.0a4...1.7.0a5)
