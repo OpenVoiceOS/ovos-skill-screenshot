@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0a5](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.0a5) (2026-10-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.0a4...1.7.0a5)
+
+**Merged pull requests:**
+
+- test: golden and negative rows for every shipped locale [\#91](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/91) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.7.0a4](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.0a4) (2026-10-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.0a3...1.7.0a4)
