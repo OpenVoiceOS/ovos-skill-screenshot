@@ -9,17 +9,18 @@ from ovoscope.routing import TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-screenshot.openvoiceos"
 END2END_DIR = Path(__file__).parent
+LOCALE_ROOT = END2END_DIR.parents[1] / "locale"
 
 
 def _rows(prefix):
     rows = []
     for path in sorted(END2END_DIR.glob(f"{prefix}*.jsonl")):
-        rows += [{"lang": "en-US", **json.loads(line)}
-                 for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        rows += [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()
+                 if line.strip()]
     return rows
 
 
-GOLDEN = _rows("golden_utterances")
+GOLDEN = _rows("golden_utterances_")
 NEGATIVE = _rows("negative_utterances_")
 _booted = {}
 
@@ -60,3 +61,19 @@ def test_negative_row_reaches_no_intent_of_the_skill(engine_for, row):
     fired = _routed(engine_for(row["lang"]), row["utterance"], row["lang"])
     TALLY.assert_not_routed(row["utterance"],
                             [t for t in fired if t.startswith(f"{SKILL_ID}:")], fired)
+
+
+def _intent_names(locale_dir):
+    return {path.name for path in locale_dir.rglob("*.intent")}
+
+
+def test_every_shipping_locale_has_a_golden_file():
+    golden = {p.stem.split("_", 2)[2] for p in END2END_DIR.glob("golden_utterances_*.jsonl")}
+    shipping = {d.name for d in LOCALE_ROOT.iterdir() if d.is_dir() and any(d.rglob("*.intent"))}
+    assert golden == shipping, f"golden files {sorted(golden ^ shipping)} differ from shipping locales"
+
+
+@pytest.mark.parametrize("lang", sorted(d.name for d in LOCALE_ROOT.iterdir() if d.is_dir()))
+def test_every_en_us_intent_file_exists_in_locale(lang):
+    missing = _intent_names(LOCALE_ROOT / "en-US") - _intent_names(LOCALE_ROOT / lang)
+    assert not missing, f"[{lang}] intent files missing: {sorted(missing)}"
