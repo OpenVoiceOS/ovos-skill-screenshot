@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ca-ES", "intent_label": "screenshot_location", "utterance": "a quin lloc em deixes les captures que fas", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ca-ES", "intent_label": "screenshot_location", "utterance": "on es guardades les captures", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ca-ES", "intent_label": "screenshot_location", "utterance": "on queda la captura que has fet", "needs_manual": true, "machine_generated": true, "rewritten_from": "on va la captura de pantalla"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ca-ES", "intent_label": "take_screenshot", "utterance": "d'aquí a deu segons fes una captura", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ca-ES", "intent_label": "take_screenshot", "utterance": "fes-me una foto de la pantalla", "needs_manual": true, "machine_generated": true, "rewritten_from": "grava la pantalla"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ca-ES", "intent_label": "take_screenshot", "utterance": "grava la pantalla", "needs_manual": true, "machine_generated": true}
