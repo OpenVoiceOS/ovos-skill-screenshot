@@ -11,10 +11,11 @@
 # limitations under the License.
 import os
 import time
+from fractions import Fraction
 
 import mss
+from numtag import UnsupportedLanguageError, tag_numbers
 from ovos_config import Configuration
-from ovos_number_parser import extract_number
 from ovos_utils.log import LOG
 
 from ovos_workshop.decorators import intent_handler
@@ -69,10 +70,12 @@ class ScreenshotSkill(OVOSSkill):
         delay_str = message.data.get("delay")
         if delay_str:
             try:
-                delay = extract_number(delay_str, lang=self.lang)
-            except Exception as e:
-                LOG.warning(f"Failed to parse delay {delay_str!r}: {e}")
-                delay = False
+                mentions = tag_numbers(delay_str, self.lang)
+            except UnsupportedLanguageError as e:
+                LOG.warning(f"Cannot read delay {delay_str!r}: {e}")
+                mentions = []
+            number = Fraction(mentions[0].value) if mentions else Fraction(0)
+            delay = int(number) if number.denominator == 1 else float(number)
             if delay:
                 self.speak_dialog("screenshot_delayed", {"delay": delay})
                 self.schedule_event(self._take_screenshot_impl, delay,
