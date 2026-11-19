@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1a3](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.1a3) (2026-11-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.1a2...1.7.1a3)
+
+**Merged pull requests:**
+
+- test: the "a couple" wait is a normal test with numtag \#247 [\#97](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/97) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.7.1a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.1a2) (2026-11-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.1a1...1.7.1a2)
