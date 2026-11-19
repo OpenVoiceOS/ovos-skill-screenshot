@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1a2](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.1a2) (2026-11-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.1a1...1.7.1a2)
+
+**Merged pull requests:**
+
+- refactor: read the delay through numtag [\#95](https://github.com/OpenVoiceOS/ovos-skill-screenshot/pull/95) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-screenshot/tree/1.7.1a1) (2026-10-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-screenshot/compare/1.7.0a5...1.7.1a1)
