@@ -11,8 +11,10 @@
 # limitations under the License.
 import os
 import time
+from fractions import Fraction
 
 import mss
+from numtag import UnsupportedLanguageError, tag_numbers
 from ovos_config import Configuration
 from ovos_utils.log import LOG
 
@@ -41,14 +43,13 @@ class ScreenshotSkill(OVOSSkill):
         display_message = f"Screenshot saved to {output}"
         self.gui.show_notification(display_message)
         LOG.debug(f"screenshot saved: {output}")
-        self.speak_dialog("screenshot.taken")
+        self.speak_dialog("screenshot_taken")
 
     def handle_screenshot_taken(self, message):
         result = message.data.get("result")
         self.notify(result)
 
-    @intent_handler("take.screenshot.intent")
-    def handle_screenshot_intent(self, message):
+    def _take_screenshot_impl(self, message):
         if self.is_ovos_shell:
             LOG.debug("Taking screenshot via ovos-shell")
             self.bus.emit(message.forward("ovos.display.screenshot.get",
@@ -62,5 +63,28 @@ class ScreenshotSkill(OVOSSkill):
             self.notify(output)
         except Exception as e:
             LOG.error(f"Failed to take screenshot: {e}")
-            self.speak_dialog("screenshot.failed")
+            self.speak_dialog("screenshot_failed")
+
+    @intent_handler("take_screenshot.intent")
+    def handle_screenshot_intent(self, message):
+        delay_str = message.data.get("delay")
+        if delay_str:
+            try:
+                mentions = tag_numbers(delay_str, self.lang)
+            except UnsupportedLanguageError as e:
+                LOG.warning(f"Cannot read delay {delay_str!r}: {e}")
+                mentions = []
+            number = Fraction(mentions[0].value) if mentions else Fraction(0)
+            delay = int(number) if number.denominator == 1 else float(number)
+            if delay:
+                self.speak_dialog("screenshot_delayed", {"delay": delay})
+                self.schedule_event(self._take_screenshot_impl, delay,
+                                    data=message.data, name="screenshot_delayed",
+                                    context=message.context)
+                return
+        self._take_screenshot_impl(message)
+
+    @intent_handler("screenshot_location.intent")
+    def handle_screenshot_location_intent(self, message):
+        self.speak_dialog("screenshot_location", {"path": self.screenshots_folder})
 

@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "fa-IR", "intent_label": "screenshot_location", "utterance": "جایی که عکس های صفحه نمایش ذخیره می شوند", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "fa-IR", "intent_label": "screenshot_location", "utterance": "صفحه نمایش کجا ذخیره می شود", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "fa-IR", "intent_label": "screenshot_location", "utterance": "عکس هایی که از صفحه گرفتی رو کجا گذاشتی", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "fa-IR", "intent_label": "take_screenshot", "utterance": "از چیزی که الان روی صفحه هست عکس بگیر", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "fa-IR", "intent_label": "take_screenshot", "utterance": "عکس های صفحه نمایش", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "fa-IR", "intent_label": "take_screenshot", "utterance": "یک عکس از صفحه نمایش را در 10 ثانیه", "needs_manual": true, "machine_generated": true}

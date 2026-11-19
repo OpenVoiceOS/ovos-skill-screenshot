@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ru-RU", "intent_label": "screenshot_location", "utterance": "в какую папку попадают скриншоты", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ru-RU", "intent_label": "screenshot_location", "utterance": "где сохранены скриншоты", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ru-RU", "intent_label": "screenshot_location", "utterance": "куда ты сохранил мои скриншоты", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ru-RU", "intent_label": "take_screenshot", "utterance": "Возьмите скриншот", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ru-RU", "intent_label": "take_screenshot", "utterance": "мне нужен снимок экрана", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "ru-RU", "intent_label": "take_screenshot", "utterance": "подожди десять секунд и сделай скриншот", "needs_manual": true, "machine_generated": true}

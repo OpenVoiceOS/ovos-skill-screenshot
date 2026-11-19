@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-screenshot.openvoiceos",
+  "name": "Screenshot",
+  "description": "Take a screenshot by voice. The skill saves the image as a PNG file and shows a notification with the file location.",
+  "examples": [
+    "take screenshot",
+    "take a screenshot",
+    "capture the screen",
+    "screenshot the display",
+    "save a screenshot",
+    "grab the screen"
+  ],
+  "tags": [
+    "system"
+  ]
+}

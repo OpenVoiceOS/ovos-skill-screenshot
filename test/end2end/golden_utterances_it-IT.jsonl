@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "it-IT", "intent_label": "screenshot_location", "utterance": "dov'è l'ultima schermata che hai salvato", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "it-IT", "intent_label": "screenshot_location", "utterance": "dove posso ritrovare le mie schermate", "needs_manual": true, "machine_generated": true, "rewritten_from": "dove trovo i miei screenshot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "it-IT", "intent_label": "screenshot_location", "utterance": "in quale cartella vengono messi gli screenshot", "needs_manual": true, "machine_generated": true, "rewritten_from": "dove vengono salvati gli screenshot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "it-IT", "intent_label": "take_screenshot", "utterance": "mi fai uno screenshot per favore", "needs_manual": true, "machine_generated": true, "rewritten_from": "scatta uno screenshot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "it-IT", "intent_label": "take_screenshot", "utterance": "fai uno screenshot", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "it-IT", "intent_label": "take_screenshot", "utterance": "scatta uno screenshot", "needs_manual": true, "machine_generated": true}

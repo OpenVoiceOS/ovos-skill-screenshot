@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "es-CO", "intent_label": "screenshot_location", "utterance": "donde esta guardada mi ultima captura de pantalla", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "es-CO", "intent_label": "screenshot_location", "utterance": "donde se guardan las capturas de pantalla", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "es-CO", "intent_label": "screenshot_location", "utterance": "dónde quedó guardada la última captura", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "es-CO", "intent_label": "take_screenshot", "utterance": "captura la pantalla", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "es-CO", "intent_label": "take_screenshot", "utterance": "hazme una captura de lo que tengo en pantalla", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "es-CO", "intent_label": "take_screenshot", "utterance": "quiero guardar una imagen de la pantalla", "needs_manual": true, "machine_generated": true}

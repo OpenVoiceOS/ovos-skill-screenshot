@@ -1,0 +1,44 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "in which directory is my screenshot kept", "needs_manual": true, "machine_generated": true, "rewritten_from": "where is my screenshot stored"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "what folder are screenshots saved in", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where are my screenshots saved", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where can I find my screenshots", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where did my most recent screenshot get stored", "needs_manual": true, "machine_generated": true, "rewritten_from": "where is my last screenshot stored"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where did you save my screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where do my screenshots get saved", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where do screenshots go", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where do you put the screenshots", "needs_manual": true, "machine_generated": true, "rewritten_from": "where do screenshots go"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where is my screenshot stored", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "where is the screenshot folder", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "screenshot_location", "utterance": "which folder do my screenshots end up in", "needs_manual": true, "machine_generated": true, "rewritten_from": "where are my screenshots saved"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "can you take a screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "capture a screengrab of my screen", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "capture my desktop", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "capture the screen", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "copy my whole desktop into an image", "needs_manual": true, "machine_generated": true, "rewritten_from": "capture my desktop"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "could you capture whatever is on my screen right now", "needs_manual": true, "machine_generated": true, "rewritten_from": "capture the screen"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "count to three and then screenshot everything", "needs_manual": true, "machine_generated": true, "rewritten_from": "screenshot in three seconds"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "create a screenshot of this page", "needs_manual": true, "machine_generated": true, "rewritten_from": "make a screenshot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "get a screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "get me a screengrab of this window", "needs_manual": true, "machine_generated": true, "rewritten_from": "take a screengrab"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "give me five seconds, then capture the screen", "needs_manual": true, "machine_generated": true, "rewritten_from": "grab a screenshot in 5 seconds"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "grab a screen shot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "grab a screenshot in 5 seconds", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "grab an image of what's showing on the screen", "needs_manual": true, "machine_generated": true, "rewritten_from": "grab the screen"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "grab the screen", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "i need a screenshot of this", "needs_manual": true, "machine_generated": true, "rewritten_from": "take a screenshot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "i want a screenshot of my monitor", "needs_manual": true, "machine_generated": true, "rewritten_from": "get a screenshot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "make a quick capture of everything on my screen", "needs_manual": true, "machine_generated": true, "rewritten_from": "grab a screen shot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "make a screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "please capture my screen", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "quickly snap an image of the screen", "needs_manual": true, "machine_generated": true, "rewritten_from": "snap a screenshot"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "save a screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "screenshot in three seconds", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "screenshot the display", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "snap a screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "take a picture of my screen", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "take a screengrab", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "take a screenshot", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "take a screenshot in 10 seconds", "needs_manual": false}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "wait ten seconds and then take a screenshot", "needs_manual": true, "machine_generated": true, "rewritten_from": "take a screenshot in 10 seconds"}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "en-US", "intent_label": "take_screenshot", "utterance": "would you mind capturing my screen", "needs_manual": true, "machine_generated": true, "rewritten_from": "please capture my screen"}

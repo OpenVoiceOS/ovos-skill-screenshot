@@ -1,0 +1,6 @@
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "pl-PL", "intent_label": "screenshot_location", "utterance": "Gdzie idą zrzuty ekranu", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "pl-PL", "intent_label": "screenshot_location", "utterance": "gdzie są zapisywane zrzuty ekranu", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "pl-PL", "intent_label": "screenshot_location", "utterance": "w jakim folderze lądują zrzuty ekranu", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "pl-PL", "intent_label": "take_screenshot", "utterance": "pochwyć obrazek ekranu", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "pl-PL", "intent_label": "take_screenshot", "utterance": "potrzebuję obrazka tego, co teraz widzę na ekranie", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-screenshot.openvoiceos", "lang": "pl-PL", "intent_label": "take_screenshot", "utterance": "zachować ekran", "needs_manual": true, "machine_generated": true}
