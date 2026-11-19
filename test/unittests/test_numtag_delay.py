@@ -37,6 +37,11 @@ ROWS = [
     ("ru-RU", "ru-ru", "Скриншот десять секунды", 10),
     ("sv-SE", "sv-se", "skärmdump om fem sekunder", 5),
     ("sv-SE", "sv-se", "skärmdump om tio sekunder", 10),
+    # a fraction of a second is kept as a float
+    ("en-US", "en-us", "screenshot in two and a half seconds", 2.5),
+    ("sv-SE", "sv-se", "skärmdump om 1,5 sekunder", 1.5),
+    # two numbers in the slot: the first one is the delay
+    ("en-US", "en-us", "screenshot in two or three seconds", 2),
 ]
 
 
@@ -66,6 +71,18 @@ def test_waits_the_spoken_number_of_seconds(locale, lang, utterance, seconds):
     skill._take_screenshot_impl.assert_not_called()
     assert skill.schedule_event.call_args.args[1] == seconds
     skill.speak_dialog.assert_called_once_with("screenshot_delayed", {"delay": seconds})
+
+
+@pytest.mark.xfail(strict=True, reason="https://github.com/TigreGotico/numtag/issues/244")
+def test_a_couple_waits_two_seconds():
+    skill = _handle("en-us", _slot("en-US", "screenshot in a couple of seconds"))
+    assert skill.schedule_event.call_args.args[1] == 2
+
+
+def test_language_without_a_lexicon_captures_at_once():
+    skill = _handle("ja-jp", "5")
+    skill.schedule_event.assert_not_called()
+    skill._take_screenshot_impl.assert_called_once()
 
 
 @pytest.mark.parametrize("delay", ["", "gibberish", "zero"])

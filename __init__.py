@@ -72,9 +72,9 @@ class ScreenshotSkill(OVOSSkill):
             try:
                 mentions = tag_numbers(delay_str, self.lang)
             except UnsupportedLanguageError as e:
-                LOG.warning(f"Failed to parse delay {delay_str!r}: {e}")
+                LOG.warning(f"Cannot read delay {delay_str!r}: {e}")
                 mentions = []
-            number = Fraction(mentions[0].value) if mentions else 0
+            number = Fraction(mentions[0].value) if mentions else Fraction(0)
             delay = int(number) if number.denominator == 1 else float(number)
             if delay:
                 self.speak_dialog("screenshot_delayed", {"delay": delay})
