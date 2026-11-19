@@ -73,7 +73,6 @@ def test_waits_the_spoken_number_of_seconds(locale, lang, utterance, seconds):
     skill.speak_dialog.assert_called_once_with("screenshot_delayed", {"delay": seconds})
 
 
-@pytest.mark.xfail(strict=True, reason="https://github.com/TigreGotico/numtag/issues/244")
 def test_a_couple_waits_two_seconds():
     skill = _handle("en-us", _slot("en-US", "screenshot in a couple of seconds"))
     assert skill.schedule_event.call_args.args[1] == 2
