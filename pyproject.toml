@@ -15,7 +15,7 @@ keywords = ["ovos", "skill", "plugin"]
 dependencies = [
     "mss",
     "ovos_workshop>=9.5.0a1",
-    "ovos-number-parser>=0.19.13"
+    "numtag>=0.15.10a1"
 ]
 
 [project.optional-dependencies]
